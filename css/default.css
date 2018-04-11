@@ -6,7 +6,9 @@ body{margin:0;padding:0;background:#c0ffff;font-size:14px;font-family:'微软雅
 #clock-box {position:absolute;left:110px;top:550px;font-size:28px;display:none;color:#666666;}
 #clock-box .name{font-size:36px;}
 #clock{margin-left:48px;margin-top:20px;}
-#clock.digit {font-family:"digit";font-size:64px;color:#FFC0CB;}
+//#clock.digit {font-family:"digit";font-size:64px;color:#FFC0CB;} 原始的值
+#clock.digit{font-family:"digit";font-size:64px;} //加的
+.digit{color:#FFC0CB;}                            //加的
 #canvas{margin:0 auto;width:1100px;height:680px;background:#c0ffff;}
 #errorMsg{width:100%;text-align:center;font-size:24px;position:absolute;top:100px;left:0px;display:none;}
 .hand{cursor:pointer;}
